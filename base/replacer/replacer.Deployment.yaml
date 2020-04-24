@@ -33,7 +33,7 @@ spec:
               fieldPath: metadata.name
         - name: CACHE_DIR
           value: /mnt/cache/$(POD_NAME)
-        image: index.docker.io/sourcegraph/replacer:3.14.3@sha256:290f801f2eeb802679541331183ea7183ecede8c16b8a64d3cf44e8ae22e3f4e
+        image: index.docker.io/sourcegraph/replacer:3.15.0@sha256:efe6e6c84c593b47691b83c7a22a57d92239cda9ca02f684a330483fb98f2cd0
         terminationMessagePolicy: FallbackToLogsOnError
         name: replacer
         ports:
